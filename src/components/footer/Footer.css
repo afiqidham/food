@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    background-color: #f0f0f0; /* Add your desired background color */
+    padding: 10px;
+  }
+  
+  .footer.admin {
+    background-color: #ff0000; /* Add admin-specific background color */
+  }
+  
+  .footer.user {
+    background-color: #00ff00; /* Add user-specific background color */
+  }
+  

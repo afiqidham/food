@@ -1,0 +1,48 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #4bbd27;
+  font-size: 1.25rem;
+}
+
+.addToCartButton {
+
+  background-color: #4caf50; 
+  border: none; 
+  padding: 8px 16px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 12px; 
+  cursor: pointer; 
+  border-radius: 4px; 
+}
+
+.addToCartButton:hover {
+  background-color: #45a049;
+}
+
+.cardContent {
+  text-align: center; 
+}
+
+.cardActions {
+  display: flex;
+  justify-content: center; 
+}
